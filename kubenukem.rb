@@ -1,6 +1,6 @@
 # require "FileUtils"
 
-class KubeNukemHomebrew < Formula
+class Kubenukem < Formula
   homepage "https://gist.github.com/rms1000watt/999a25e2b57d9bc0c5b9ebc06c890174"
 
   url "https://gist.githubusercontent.com/rms1000watt/999a25e2b57d9bc0c5b9ebc06c890174/raw/102cceaa197894a0e6437efdc417851b3bc554c5/kubenukem"
