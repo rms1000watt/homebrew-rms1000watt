@@ -1,15 +1,16 @@
 class Kubenukem < Formula
   homepage "https://gist.github.com/rms1000watt/999a25e2b57d9bc0c5b9ebc06c890174"
 
-  url "https://gist.githubusercontent.com/rms1000watt/999a25e2b57d9bc0c5b9ebc06c890174/raw/102cceaa197894a0e6437efdc417851b3bc554c5/kubenukem"
-  version "0.0.1"
-  # openssl dgst -sha256 kubenukem
-  sha256 "105cac51a7b0841046f0aa714f5b6cce717562b1638443978d1c41b6d135dd37"
+  url "https://raw.githubusercontent.com/rms1000watt/kubenukem/master/kubenukem"
+  version "0.0.2"
+  # openssl dgst -sha256 ../kubenukem/kubenukem
+  sha256 "5248bc05200a926d2a14bc4429bdd5b20a88b2217079fa211989e302f229d29a"
 
   def install
     bin.install "kubenukem"
   end
 
+  # TODO: add test to kubenukem
   # test do
   #   system "#{bin}/kubenukem"
   # end
