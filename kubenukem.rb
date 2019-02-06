@@ -1,11 +1,12 @@
 class Kubenukem < Formula
-  homepage "https://gist.github.com/rms1000watt/999a25e2b57d9bc0c5b9ebc06c890174"
+  homepage "https://github.com/rms1000watt/kubenukem"
 
-  v = "0.0.2"
-  url "https://raw.githubusercontent.com/rms1000watt/kubenukem/#{v}/kubenukem"
+  v = "0.0.3"
+  # url "https://raw.githubusercontent.com/rms1000watt/kubenukem/#{v}/kubenukem"
+  url "https://github.com/rms1000watt/kubenukem/releases/download/#{v}/kubenukem"
   version v
   # openssl dgst -sha256 ../kubenukem/kubenukem
-  sha256 "5248bc05200a926d2a14bc4429bdd5b20a88b2217079fa211989e302f229d29a"
+  sha256 "816fc296b13af2d7186590eff860e9e1abfc3ab1d2c59d10273efa613a111341"
 
   def install
     bin.install "kubenukem"
